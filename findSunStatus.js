@@ -21,9 +21,14 @@ export default function findSunStatus(sunrise, sunset) {
   const sunriseTime = convertTime(sunrise);
   const sunsetTime = convertTime(sunset);
 
+  const body = document.body;
+  const answer = document.querySelector('.answer');
+
   if (currentTime >= sunriseTime && currentTime <= sunsetTime) {
-    console.log('Sun is up');
+    answer.innerText = 'Sun is up';
+    body.classList.add('up');
   } else {
-    console.log('Sun is down');
+    answer.innerText = 'Sun is down';
+    body.classList.add('down');
   }
 }
