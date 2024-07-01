@@ -12,7 +12,7 @@ A silly app that looks up your IP address and tells you whether the sun is up or
 
 ## General info
 
-TBC
+This uses the [Sunrise and Sunset API](https://sunrise-sunset.org/api) together with [ipapi](https://ipapi.co/) to find the IP's location
 
 ## Screenshots
 
