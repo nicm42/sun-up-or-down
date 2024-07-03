@@ -1,6 +1,6 @@
 # Sun up or down
 
-A silly app that looks up your IP address and tells you whether the sun is up or down.
+A silly app that looks up your IP address and tells you whether the sun is up or down and whether it's light or dark.
 
 ## Table of contents
 
@@ -16,7 +16,7 @@ This uses the [Sunrise and Sunset API](https://sunrise-sunset.org/api) together 
 
 ## Screenshots
 
-TBC
+![Screenshot](screenshot.png)
 
 ## Technologies
 
@@ -26,8 +26,18 @@ TBC
 
 ## Setup
 
-TBC
+To view this project visit the [demo](https://sun-up-or-down.pages.dev/) or download the files, open a terminal in that folder and install locally using npm:
+
+```
+npm install
+```
+
+Then run the app locally:
+
+```
+npm run dev
+```
 
 ## Status
 
-Project is: _in progress_
+Project is: _finished_
