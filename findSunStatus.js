@@ -41,10 +41,10 @@ export default function findSunStatus(
   }
 
   if (currentTime >= twilightStartTime && currentTime <= twilightEndTime) {
-    darkness.innerText = "No, it's light";
+    darkness.innerText = "It's light";
     body.classList.add('light');
   } else {
-    darkness.innerText = "Yes, it's dark";
+    darkness.innerText = "It's dark";
     body.classList.add('dark');
   }
 }
