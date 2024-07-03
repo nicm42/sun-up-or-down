@@ -28,23 +28,23 @@ export default function findSunStatus(
   const twilightStartTime = convertTime(twilight_start);
   const twilightEndTime = convertTime(twilight_end);
 
-  const body = document.body;
+  const html = document.documentElement;
   const answer = document.querySelector('.answer');
   const darkness = document.querySelector('.darkness');
 
   if (currentTime >= sunriseTime && currentTime <= sunsetTime) {
     answer.innerText = 'Sun is up';
-    body.classList.add('up');
+    html.classList.add('up');
   } else {
     answer.innerText = 'Sun is down';
-    body.classList.add('down');
+    html.classList.add('down');
   }
 
   if (currentTime >= twilightStartTime && currentTime <= twilightEndTime) {
     darkness.innerText = "It's light";
-    body.classList.add('light');
+    html.classList.add('light');
   } else {
     darkness.innerText = "It's dark";
-    body.classList.add('dark');
+    html.classList.add('dark');
   }
 }
