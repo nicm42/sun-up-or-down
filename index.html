@@ -1,13 +1,36 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="icon" href="/sun.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
+    <title>Sun up or down</title>
   </head>
   <body>
-    <div id="app"></div>
+    <main>
+      <h1>Sun up or down</h1>
+      <p class="small">
+        If you're not near a window, find out whether the sun is up or down and
+        whether it's dark
+      </p>
+      <h2>Is the sun up or down?</h2>
+      <p class="answer"></p>
+      <h2>So is it light or dark?</h2>
+      <p class="darkness"></p>
+    </main>
+    <footer>
+      <p>IP data from <a href="https://ipapi.co/">ipapi</a></p>
+      <p>
+        Sunrise and Sunset data from the
+        <a href="https://sunrise-sunset.org/api">Sunrise and Sunset API</a>
+      </p>
+    </footer>
     <script type="module" src="/main.js"></script>
   </body>
 </html>
