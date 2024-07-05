@@ -51,11 +51,11 @@ html.down.dark {
   color: #eeedeb;
 }
 
-body.dark a {
+html.dark a {
   color: #fdf0d1;
 }
 
-body.light a {
+html.light a {
   color: #445d48;
 }
 
