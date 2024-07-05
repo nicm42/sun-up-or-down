@@ -3,7 +3,7 @@ export default async function getSunTimes(latitude, longitude) {
     `https://api.sunrise-sunset.org/json?lat=${latitude}&lng=${longitude}`
   );
   const data = await response.json();
-  console.log(data);
+  //console.log(data);
   return {
     sunrise: data.results.sunrise,
     sunset: data.results.sunset,
